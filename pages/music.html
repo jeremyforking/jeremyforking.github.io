@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Winsome Workmanship" content="We're building a future.">
+    <meta name="theme-color" content="#fcf8f5" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#fcf8f5" media="(prefers-color-scheme: dark)">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/hamburgers.css">
+
+</head>
+
+<body id="bodymusic">
+    <div class="mobilenav">
+        
+        <input id="collapsible" class="toggle" type="checkbox">
+        <label for="collapsible" class="hamburger">
+            
+            <div class="hamburger--squeeze">
+                <div class="hamburger-box">
+                  <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        
+        </label>
+        <div class="menu">
+            <a href="../index.html"><span id="mobileshield"></span></a>
+            <a href="pages/music.html"><span id="mobilemusic">MUSIC<img class=navarrow src="../images/arrow-07.svg"></span></a>
+            <a href="https://lnk.to/JEREMYFORKING"><span id="mobilelisten">LISTEN<img class=navarrow src="../images/arrow-07.svg"></span></a>
+            <a href="https://www.youtube.com/@jeremy-for-king"><span id="mobileyoutube">youtube</span></a>
+            <a href="https://facebook.com/jeremyforking"><span id="mobilefacebook">facebook</span></a>
+            <span id="menupaddingbottom"></span>
+        </div>    
+    </div>
+
+    <header id="headermusic">
+        
+        <div id="musicbackground">
+            <nav>
+                <span class="leftnav"><span class="isDisabled">MUSIC</span><span class="spacer">&nbsp</span><span class="navbutton"><a href="https://lnk.to/JEREMYFORKING">LISTEN NOW</a></span>
+                    <!-- Add spacer here-->
+                    <!-- Add "SHOP" Button here-->
+                </span><span class="shieldboxmusic"><a
+                    href="../index.html"><div class="shield"></div></a></span>
+                    <span class="rightnav"><span class="navbutton"><a href="https://www.youtube.com/@jeremy-for-king" target="_blank">youtube</a></span><span class="spacer">&nbsp</span><span
+                    class="navbutton"><a href="https://facebook.com/jeremyforking" target="_blank">facebook</a></span>
+                    <!-- Add spacer here-->
+                    <!-- Add "Instagram" Button here-->
+            </nav>
+            
+            <div id="maincontentmusic">
+                <div id="foxnav"><a href="pages/fox.html"><span id="foxlogo"></span></a></div>
+                <span class="jeremyforkingboxmusic"><div class="jeremyforkingmusic"></div></span>
+
+                <div id="music">
+                    <span id="discblank">
+                        <span id="discbuttons">
+                            
+                            <!-- Add "Purchase" Button here-->
+
+                            <div class="buttoncontainer2">
+                                <a href="https://lnk.to/JEREMYFORKING" target="_blank"><div class="bluebuttonoutline">PREVIEW</div></a>
+                            </div>
+                        </span>
+                    </span>
+                    <span id="songlist">
+                        <span id="songlisttitle"><h4>TRACKS</h4></span>
+                        <span id="songnames"><h4>
+                            demons at bay<br>
+                            almost sunshine<br>
+                            drifting away<br>
+                            cold comfort<br>
+                            quiet of the evening<br>
+                            love letters & lines<br>
+                            out of control<br>
+                            what’s left when i’m right<br>
+                            dissonance & dialogue<br>
+                            two wolves<br>
+                            by and by<br>
+                            </h4></span>
+                    </span>
+                    
+                </div>
+        
+                <div id="credits">
+                    <span id="creditstype">
+                        <h4>All songs written by Jeremy Gates except: “Quiet of the Evening” by Jeremy Gates and Horace Gates, Sr. / “Dissonance and Dialogue” by Jeremy Gates and Brent Froehlich / Jeremy Gates: vocals, guitars, electric keyboard / Nolan Koskela-Staples: string arrangements, electric bass, upright bass, cello / Megan Gates: vocals, piano / Stephen Fine: viola / Aaron Colverson: violin / Matt Brown - percussion / Mike Wyatt: mixing, mastering / Produced by Austin Hilde</h4>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+        
+        
+         
+    <div id="footermargin"> 
+        <footer id="footersize">
+            <div id="swordbox">
+                <span id="sword"></span>
+            </div>
+            
+            <div id="rowelements">
+                <span id="footernav">
+                    <!-- <span class="isDisabledFooter">MUSIC</span> -->
+                    <a href="https://lnk.to/JEREMYFORKING"><span class="footernav"><h3>PREVIEW ALBUM</h3></span></a>
+                    <!-- <a href="pages/shop.html"><span class="footernav"><h3>SHOP</h3></span></a> -->
+                </span>
+    
+                <span id="subscribe">
+                    <form method="post" action="#">
+                        <div id="form">
+                          <div>
+                            <input type="text" id="field" placeholder="Email">
+                          </div>
+                          <div>
+                            <button class="subscribebutton" type="submit">SUBSCRIBE</button>
+                          </div>
+                        </div>
+                    </form>
+                </span>
+    
+                <span id="email">
+                    <a href="mailto:info@jeremyforking.com"><span class="email"><h3>BOOK THE BAND</h3></span></a>
+                </span>
+    
+            </div>
+    
+            <div id="copyright">
+                <span id="yearwinsome">
+                    <h3>&copy 2023&nbsp<a href="https://winsomeworkmanship.com" target="_blank"><span id="winsome">Winsome Workmanship</span></a></h3>
+                </span>
+            </div>
+        </footer>
+    </div>  
+
+    <script>
+        window.onload=inithamburger;
+        function inithamburger(){
+        // Look for .hamburger
+        var click = document.querySelector(".hamburger--squeeze");
+        // On click
+        click.addEventListener("click", function() {
+        // Toggle class "is-active"
+        click.classList.toggle("is-active");
+        // Do something else, like open/close menu
+        });  
+        }
+       
+    </script>
+
+</body>
+
+</html>

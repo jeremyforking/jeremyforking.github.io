@@ -1,0 +1,350 @@
+@font-face {
+  font-family: "neueworld-ExtendedThin";
+  src: url("../CSS/fonts/neue-world/NeueWorld-ExtendedThin.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "neueworld-SemiCondensedUltrabold";
+  src: url("../CSS/fonts/neue-world/NeueWorld-SemiCondensedUltrabold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "neueworld-Ultrabold";
+  src: url("../CSS/fonts/neue-world/NeueWorld-Ultrabold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeueWorld-SuperCondensedLight";
+  src: url("../CSS/fonts/neue-world/NeueWorld-SuperCondensedLight.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NeueWorld-CondensedRegular";
+  src: url("../CSS/fonts/neue-world/NeueWorld-CondensedRegular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MonumentExtended-light";
+  src: url("../CSS/fonts/Monument/MonumentExtended-light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MonumentExtended-bold";
+  src: url("../CSS/fonts/Monument/MonumentExtended-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+#indexbackground {
+  background: url("../images/indeximage.jpg");
+  background-size: cover;
+}
+#foxbackground {
+  background: url("../images/brownfox.jpg");
+  background-size: 50vw;
+}
+#aboutbackground {
+  background-color: #fcf8f5;
+  background-size: cover;
+}
+#projectsbackground {
+  background-color: #fcf8f5;
+  background-size: cover;
+}
+a:link {
+  color: #aa733f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #aa733f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ce9463;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:active {
+  color: #aa733f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  font-family: "MonumentExtended-bold";
+  letter-spacing: 0.04vw;
+  font-size: 1.1vw;
+  color: #aa733f;
+  width: 45vw;
+  height: 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 3.5vw;
+  align-items: center;
+  align-content: center;
+}
+.foxbox {
+  width: 10vw;
+  height: 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.fox {
+  width: 8vw;
+  height: 8vw;
+  background: url("../images/fox.svg") no-repeat;
+  display: inline-block;
+}
+.fox:hover {
+  width: 8vw;
+  height: 8vw;
+  background: url("../images/foxhover.svg") no-repeat;
+  display: inline-block;
+}
+.navbuttons {
+  width: 45vw;
+  height: 7vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 0.8vw;
+}
+.navbutton {
+  font-family: "neueworld-Ultrabold";
+  letter-spacing: 0.05vw;
+  font-size: 1.2vw;
+  color: #aa733f;
+  margin-right: 2.7vw;
+}
+
+#maincontent {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 6vw;
+}
+#foxcontent {
+  width: 100vw;
+  height: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-bottom: 12vw;
+}
+#abouttext {
+  width: 100vw;
+  height: 44vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-left: 6.5vw;
+  padding-right: 21.7vw;
+  padding-bottom: 6vw;
+}
+.twoup {
+  background-color: #fcf8f5;
+  width: 100vw;
+  height: 75.4vw;
+  display: flex;
+  flex-direction: row;
+}
+#jeremy {
+  background: url("../images/jeremy.jpg");
+  background-size: cover;
+  width: 50vw;
+  height: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: top;
+  align-content: center;
+  padding-left: 6.1vw;
+  padding-right: 18vw;
+  padding-top: 6.1vw;
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
+  margin-bottom: 0.4vw;
+}
+#austin {
+  background: url("../images/austin.jpg");
+  background-size: cover;
+  width: 50vw;
+  height: 75vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: top;
+  align-content: center;
+  padding-left: 6.1vw;
+  padding-right: 19vw;
+  padding-top: 6.1vw;
+  margin-right: 0.4vw;
+  margin-bottom: 0.4vw;
+}
+.spacer {
+  height: 20vw;
+}
+.contact {
+  width: 10vw;
+  height: 2vw;
+  background: url("../images/contact.svg") no-repeat;
+  display: inline-block;
+}
+.contact:hover {
+  width: 10vw;
+  height: 2vw;
+  background: url("../images/contacthover.svg") no-repeat;
+  display: inline-block;
+}
+#foxrunresidence {
+  background: url("../images/foxrunthumbnail.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: top;
+  align-content: center;
+  padding-left: 6.1vw;
+  padding-right: 18vw;
+  padding-top: 6.1vw;
+  margin-left: 0.4vw;
+  margin-right: 0.4vw;
+  margin-bottom: 0.4vw;
+}
+.oneup {
+  background-color: #fcf8f5;
+  width: 100vw;
+  height: 60.4vw;
+  display: flex;
+  flex-direction: row;
+}
+.spacersmall {
+  height: 0.8vw;
+}
+footer {
+  background-color: black;
+  width: 100vw;
+  height: 15vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#haydencolorado {
+  font-family: "MonumentExtended-bold";
+  font-weight: normal;
+  letter-spacing: 0.1vw;
+  font-size: 0.9vw;
+  color: #fcf8f5;
+  margin: 0;
+}
+#footerline {
+  width: 4vw;
+  margin: 2.4vw;
+}
+#phonenumber {
+  font-family: "MonumentExtended-light";
+  font-weight: normal;
+  letter-spacing: 0.1vw;
+  font-size: 0.9vw;
+  color: #fcf8f5;
+  margin: 0;
+}
+h1 {
+  font-family: "NeueWorld-CondensedRegular";
+  font-weight: normal;
+  letter-spacing: 0.05vw;
+  font-size: 3.5vw;
+  color: #fcf8f5;
+  margin: 0;
+}
+
+h2 {
+  font-family: "NeueWorld-CondensedRegular";
+  font-weight: normal;
+  letter-spacing: 0vw;
+  line-height: 4.1vw;
+  font-size: 3.5vw;
+  color: black;
+  margin: 0;
+}
+h3 {
+  font-family: "NeueWorld-CondensedRegular";
+  font-weight: normal;
+  letter-spacing: 0.05vw;
+  line-height: 6vw;
+  font-size: 6vw;
+  color: #fcf8f5;
+  margin: 0;
+}
+h4 {
+  font-family: "MonumentExtended-bold";
+  font-weight: normal;
+  letter-spacing: 0.05vw;
+  line-height: 2.4vw;
+  font-size: 1.6vw;
+  color: #fcf8f5;
+  margin: 0;
+}
+h5 {
+  font-family: "MonumentExtended-light";
+  font-weight: normal;
+  letter-spacing: 0.1vw;
+  line-height: 3.3vw;
+  font-size: 0.9vw;
+  color: #fcf8f5;
+  margin: 0;
+}
+.gold {
+  color: #aa733f;
+}
+#quote {
+  font-family: "NeueWorld-CondensedRegular";
+  font-weight: normal;
+  letter-spacing: 0.05vw;
+  font-size: 3.1vw;
+  color: #fcf8f5;
+  margin: 0;
+}

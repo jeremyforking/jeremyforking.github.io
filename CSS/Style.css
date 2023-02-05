@@ -1,0 +1,1831 @@
+/* ================================================================================ */
+/* ===================================== FONT FACES =============================== */
+/* ================================================================================ */
+
+@font-face {
+  font-family: "Gatwick-Ultralight";
+  src: url("../CSS/fonts/Gatwick/Gatwick-Ultralight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gatwick-Regular";
+  src: url("../CSS/fonts/Gatwick/Gatwick-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gatwick-Bold";
+  src: url("../CSS/fonts/Gatwick/Gatwick-Bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MonumentExtended-light";
+  src: url("../CSS/fonts/Monument/MonumentExtended-light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MonumentExtended-bold";
+  src: url("../CSS/fonts/Monument/MonumentExtended-bold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "MonumentExtended-regular";
+  src: url("../CSS/fonts/Monument/MonumentExtended-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  /* ================================================================================ */
+  /* ================================= MOBILE WEBSITE =============================== */
+  /* ================================================================================ */
+
+
+  body {
+    background-color: #30323d;
+  }
+  header {
+    background-color: #30323d;
+    width: 100vw;
+    height: 170vw;
+  }
+  #albumbackground {
+    background-color: #30323D;
+    background-size: 97vw;
+    height: 168.5vw;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.3vw;
+    margin: 1.5vw;
+  }  
+  #maincontent {
+
+    width: 96.5vw;
+    height: 168.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0vw;
+  } 
+#foxnav {
+
+  width: 96.5vw;
+  height: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 1.2vw;
+  margin-top: 3vw;
+}
+#foxlogo {
+
+  width: 11.5vw;
+  height: 14vw;
+  margin-top: 18vw;
+  background: url("../images/shield.svg") no-repeat;
+  display: inline-block
+}
+
+.jeremyforkingbox {
+
+  width: 80vw;
+  height: 44vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  align-content: center;
+  margin-right: 1.5vw;
+}
+
+.jeremyforking {
+
+  width: 76vw;
+  height: 4vw;
+  padding-bottom: 18vw;
+  margin-left: 2vw;
+  background: url("../images/jeremyforkingmobile.svg") no-repeat;
+  display: inline-block;
+}
+.sunshinebox {
+  width: 97;
+  height: 84.25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.sunshine {
+  width: 96.8vw;
+  height: 84.1vw;
+  background: url("../images/sunshinemobile.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+}
+.availablenowbox {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.availablenow {
+  width: 100vw;
+  height: 170vw;
+  image-rendering: auto;
+  background: url("../images/availablenowmobile.jpg") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#jeremyforkingtag {
+
+  color: #72819b;
+  margin-top: 63vw;
+  margin-bottom: 6vw;
+  margin-left: 0vw;
+}
+#albumavailablenow {
+
+  color: #72819b;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  margin-left: 0vw;
+  text-align: center;
+}
+.buttoncontainer {
+  width: 60vw;
+  height: 11vw;
+  border-width: 0vw;
+  margin-top: 6vw;
+  margin-bottom: 0vw;
+  margin-left: 0vw;
+  display: inline-block;
+}
+  .bluebuttonoutline {
+  width: 60vw;
+  height: 11vw;
+  border-color: #72819b;
+  border-style: solid;
+  border-width: 0.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Gatwick-Regular";
+  letter-spacing: 1.4vw;
+  font-size: 2.5vw;
+  color: #72819b;
+  padding-left: 0vw;
+}
+.bluebuttonoutline:hover {
+  background-color: #c48a3d;
+  width: 60vw;
+  height: 11vw;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Gatwick-Regular";
+  letter-spacing: 1.4vw;
+  font-size: 2.5vw;
+  color: black;
+  padding-left: 0vw;
+  transition-duration: 0.4s;
+}
+
+
+
+/* ================================================================================ */
+/* ================================ MOBILE - ACTIVE NAV =============================== */
+
+#logounderline {
+  display: none;
+}
+.navbutton {
+  display: none;
+}
+nav {
+  display: none;
+}
+a:link {
+  color: #b77030;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #b77030;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b77030;
+  background-color: transparent;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:active {
+  color: #b77030;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#mobilenav {
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+  display: block;
+}
+
+.hamburger {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 20vw;
+  width: 100vw;
+  cursor: pointer;
+}
+
+.menu {
+  background-color: black;
+  width: 100vw;
+  max-height: 0vh;
+  overflow: hidden;
+  transition: max-height 0.25s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  margin-top: -20vw;
+  z-index: -1;
+}
+.toggle:checked + .hamburger + .menu {
+  max-height: 100vh;
+}
+input[type="checkbox"] {
+  display: none;
+}
+#mobileshield {
+  background: url("../images/shield.svg") no-repeat;
+  width: 11.5vw;
+  height: 14vw;
+  margin-top: 25vw;
+  margin-bottom: 18vw;
+  margin-left: 1.2vw;
+  display: inline-block;
+}
+.navarrow {
+  width: 16vw;
+  padding-right: 5vw;
+}
+#mobilemusic {
+  font-family: "Gatwick-Regular";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  letter-spacing: 2vw;
+  font-size: 3.3vw;
+  color: #c48a3d;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0.39vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  border-bottom: 0vw;
+  width: 68vw;
+  height: 18vw;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 5vw;
+}
+
+#mobilelisten {
+  font-family: "Gatwick-Regular";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  letter-spacing: 2vw;
+  font-size: 3.3vw;
+  color: #c48a3d;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0.39vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  width: 68vw;
+  height: 18vw;
+  cursor: pointer;
+  text-align: left;
+  padding-left: 5vw;
+}
+
+#mobileyoutube {
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  letter-spacing: 2vw;
+  font-size: 3.3vw;
+  color: #c48a3d;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  width: 68vw;
+  height: 18vw;
+  cursor: pointer;
+  margin-top: 18vw;
+}
+#mobilefacebook {
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  letter-spacing: 2vw;
+  font-size: 3.3vw;
+  color: #c48a3d;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  width: 68vw;
+  height: 18vw;
+  cursor: pointer;
+}
+
+#menupaddingbottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  width: 65vw;
+  height: 72vw;
+}
+
+  /* ================================ MOBILE - MUSIC =============================== */
+ 
+  #bodymusic {
+    background-color: black;
+  }
+  #headermusic {
+    background-color: black;
+    width: 100vw;
+    height: 450vw;
+  }
+  #musicbackground {
+    background: url("../images/musicpagemobile.jpg") no-repeat;
+    background-color: black;
+    background-size: 100vw;
+    height: 450vw;
+  }
+  #maincontentmusic {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0vw;
+    
+  }
+ 
+  .jeremyforkingboxmusic {
+    width: 100vw;
+    height: 170vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    align-content: center;
+    padding-top: 14vw;
+  }
+  .jeremyforkingmusic {
+    width: 76vw;
+    height: 4vw;
+    margin-left: 1vw;
+    padding-bottom: 8vw;
+    background: url("../images/jeremyforkingmobile.svg") no-repeat;
+    display: inline-block;
+  }
+  #music {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 80vw;
+    height: 120vw;
+  }
+  
+  #discblank {
+    width: 70vw;
+    height: 14vw;
+    margin-bottom: 18vw;
+  }
+  #discbuttons {
+    width: 70vw;
+    height: 14vw;
+    margin-top: 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .buttoncontainer2 {
+    width: 60vw;
+    height: 11vw;
+    border-width: 0vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    margin-left: 0vw;
+    display: inline-block;
+  }
+  #songlist {
+    border-color: #72819b;
+    border-style: solid;
+    border-width: 0.3vw;
+    border-bottom: 0vw;
+    border-left: 0vw;
+    border-right: 0vw;
+    width: 80vw;
+    height: 90vw;
+    margin-left: 0vw;
+    display: inline-block;
+  }
+  #songlisttitle {
+    width: 70vw;
+    height: 10vw;
+    margin-top: 6vw;
+    display: inline-block;  
+  }
+  #songnames {
+    width: 70vw;
+    height: 70vw;
+    display: inline-block; 
+  }
+  #credits {
+    border-color: #72819b;
+    border-style: solid;
+    border-width: 0.3vw;
+    border-bottom: 0vw;
+    border-left: 0vw;
+    border-right: 0vw; 
+    width: 80vw;
+    height: 84vw;
+    margin-top: 14vw;
+    margin-bottom: 0vw;
+    display: inline-block;
+  }
+  #creditstype {
+
+    width: 80vw;
+    height: 12vw;
+    margin-top: 6vw;
+    display: inline-block;
+  }
+  
+  /* ================================ MOBILE "THANK YOU" =============================== */
+
+  #bodymusic {
+    background-color: black;
+  }
+  #headerthankyou {
+    background-color: black;
+    width: 100vw;
+    height: 98vh;
+  }
+  #thankyoubackground {
+    background-color: black;
+    background-size: 100vw;
+    height: 98vh;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.3vw;
+    margin-left: 0.89vw;
+    margin-right: 0.89vw;
+    margin-bottom: 0.89vw;
+    margin-top: 0.89vw;
+  }
+  #maincontentthankyou {
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #thankyouline {
+    border-color: #72819b;
+    border-style: solid;
+    border-width: 0.3vw;
+    width: 77vw;
+    height: 77vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0vw;
+  }
+  #thankyouwindow {
+    background-color: #30323D;
+    width: 80vw;
+    height: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 18vh;
+  }
+  #xbox {
+    width: 70vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    margin-top: 2vw;
+  }
+  #x {
+    background: url("../images/x.svg") no-repeat;
+
+    width: 9vw;
+    height: 9vw;
+    display: inline-block;
+    margin-right: 2vw;
+  }
+  #thankyoutext {
+    width: 42vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 12vw;
+    font-family: "Gatwick-Ultralight";
+    font-weight: normal;
+    line-height: 11vw;
+    letter-spacing: 0.6vw;
+    font-size: 9vw;
+    color: #72819b;
+  }
+/* ================================================================================ */
+/* ================================ MOBILE - FOOTER =============================== */
+
+#footermargin {
+  background-color: #30323D;
+  width: 100vw;
+  height: 170vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#footersize {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #30323D;
+  width: 97vw;
+  height: 168vw;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0.3vw;
+  margin: 1.5vw;
+}
+#rowelements {
+
+  height: 74vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+#swordbox {
+
+  height: 6vw;
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 12vw;
+
+}#sword {
+  background: url("../images/sword.svg") no-repeat;
+  height: 5vw;
+  width: 12vw;
+  display: inline-block;
+}
+#footernav {
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 40vw;
+  height: 11vw;
+  margin-right: 0vw;
+}
+.footernav {
+  
+  height: 5vw;
+  margin-left: 0vw;
+  display: inline-block;
+}
+.footernav:hover {
+  height: 1.4vw;
+  display: inline-block;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0.1vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  border-top: 0vw;
+  transition-duration: 0.4s;
+}
+
+#subscribe {
+
+  
+  width: 78vw;
+  height: 40vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 0vw;
+}
+#form {
+
+  
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+#field {
+  background-color: #30323D;
+  border-width: 0.3vw;
+  border-style: solid;
+  border-color: #72819b;
+  color: #72819b;
+  height: 11vw;
+  width: 75vw;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Gatwick-Bold";
+  font-weight: normal;
+  letter-spacing: 0.5vw;
+  line-height: 1vw;
+  font-size: 2.5vw;
+  padding-left: 5vw;
+}
+#field:focus, textarea {
+  outline: none !important;
+  background-color: #72819b;
+  color: #30323D;
+}
+#field::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #72819b;
+  opacity: 1; /* Firefox */
+}
+#field:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #72819b;
+}
+#field::-ms-input-placeholder { /* Microsoft Edge */
+  color: #72819b;
+}
+
+.subscribebutton {
+  background-color: #30323D;
+  border-width: 0.3vw;
+  border-style: solid;
+  border-color: #c48a3d;
+  color: #c48a3d;
+  height: 11vw;
+  width: 60vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  letter-spacing: 1.4vw;
+  line-height: 1vw;
+  font-size: 2.5vw;
+  padding-left: 0vw;
+  margin-left: 0vw;
+  margin-top: 2vw;
+}
+.subscribebutton:hover {
+  background-color: #c48a3d;
+  border-width: 0.3vw;
+  border-style: solid;
+  border-color: #c48a3d;
+  color: black;
+  height: 11vw;
+  width: 60vw;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  letter-spacing: 1.4vw;
+  line-height: 1vw;
+  font-size: 2.5vw;
+  padding-left: 0vw;
+  margin-left: 0vw;
+  margin-top: 2vw;
+  transition-duration: 0.4s;
+}
+#email {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  align-content: center;
+  width: 60vw;
+  height: 11vw;
+  margin-left: 1vw;
+}
+.email {
+
+  
+  background-color: #30323D;
+  border-width: 0.3vw;
+  border-style: solid;
+  border-color: #c48a3d;
+  color: #c48a3d;
+  height: 11vw;
+  width: 60vw;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  letter-spacing: 1.4vw;
+  line-height: 1vw;
+  font-size: 2.2vw;
+  padding-left: 0vw;
+  margin-left: 0vw;
+}
+.email:hover {
+  background-color: #c48a3d;
+  border-width: 0.3vw;
+  border-style: solid;
+  border-color: #c48a3d;
+  color: black;
+  height: 11vw;
+  width: 60vw;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  letter-spacing: 1.4vw;
+  line-height: 1vw;
+  font-size: 2.2vw;
+  padding-left: 0vw;
+  margin-left: 0vw;
+  transition-duration: 0.4s;
+}
+#copyright {
+  height: 3vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 24vw;
+  margin-bottom: 10vw;
+}
+#yearwinsome {
+  height: 3vw;
+  display: inline-block;
+  border-color: #c48a3d;
+  border-style: solid;
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  color: #c48a3d;
+  letter-spacing: 1.2vw;
+  line-height: 1vw;
+  font-size: 1.5vw;
+  border-width: 0vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  border-top: 0vw;
+}
+#winsome {
+  height: 3vw;
+  display: inline-block;
+  border-color: #30323D;
+  border-style: solid;
+  border-width: 0.3vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  border-top: 0vw;
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  color: #c48a3d;
+  letter-spacing: 1.2vw;
+  line-height: 1vw;
+  font-size: 1.8vw;
+}
+#winsome:hover {
+  height: 3vw;
+  display: inline-block;
+  border-color: #c48a3d;
+  border-style: solid;
+  border-width: 0.3vw;
+  border-right: 0vw;
+  border-left: 0vw;
+  border-top: 0vw;
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  color: #c48a3d;
+  letter-spacing: 1.2vw;
+  line-height: 1vw;
+  font-size: 1.8vw;
+  transition-duration: 0.4s;
+}
+
+/* ================================ MOBILE - TYPOGRAPHY =============================== */
+
+h1 {
+  font-family: "Gatwick-Ultralight";
+  font-weight: normal;
+  line-height: 12vw;
+  letter-spacing: 2vw;
+  font-size: 10vw;
+  color: #fcf8f5;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  letter-spacing: 1vw;
+  line-height: 1vw;
+  font-size: 2vw;
+  color: black;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Gatwick-Regular";
+  font-weight: normal;
+  letter-spacing: 0.6vw;
+  line-height: 6vw;
+  font-size: 2.4vw;
+  color: #72819b;
+  margin: 0;
+}
+.gold {
+  color: #b77030;
+}
+.black {
+  color: black;
+}
+
+/* ================================================================================ */
+/* ================================ DESKTOP WEBSITE =============================== */
+/* ================================================================================ */
+
+@media screen and (min-width: 800px) {
+  .mobilenav {
+    display: none;
+  }
+  #mobilelogo {
+    display: none;
+  }
+  #foxnav {
+    display: none;
+  }
+  #foxnavbrown {
+    display: none;
+  }
+  body {
+    background-color: #30323d;
+  }
+  header {
+    background-color: #30323d;
+    width: 100vw;
+    height: 100vw;
+  }
+  #albumbackground {
+    background-color: #30323D;
+    background-size: 99vw;
+    height: 99vw;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.11vw;
+    margin: 0.89vw;
+  }
+
+  a:link {
+    color: #c48a3d;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #c48a3d;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #c48a3d;
+    background-color: transparent;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  a:active {
+    color: #c48a3d;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .isDisabled {
+    color: #966429 !important;
+    cursor: pointer;
+    font-family: "Gatwick-Regular";
+    letter-spacing: 0.4vw;
+    font-size: 0.7vw;
+    margin-right: 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    height: 2vw;
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .leftnav {
+    width: 45vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 5vw;
+    align-items: center;
+    align-content: center;
+  }
+  .shieldboxdead {
+    width: 4vw;
+    height: 4.7vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-color: #30323D;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    margin-top: 2.5vw;
+  }
+    .shieldbox {
+    width: 4vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-color: #30323D;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    margin-top: 2.5vw;
+  }
+  .shieldbox:hover {
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  .shielddead {
+    width: 3.3vw;
+    height: 3.3vw;
+    background: url("../images/shield.svg") no-repeat;
+    display: inline-block;
+  }
+  .shield {
+    width: 3.3vw;
+    height: 3.3vw;
+    background: url("../images/shield.svg") no-repeat;
+    display: inline-block;
+  }
+  .rightnav {
+    width: 45vw;
+    height: 10vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    padding-right: 5vw;
+  }
+  .spacer {
+    font-family: "Gatwick-Bold";
+    letter-spacing: 0.4vw;
+    font-size: 0.8vw;
+    color: #c48a3d;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 0.25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    height: 2vw;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    cursor: pointer;
+  }
+  .navbutton {
+    font-family: "Gatwick-Regular";
+    letter-spacing: 0.4vw;
+    font-size: 0.7vw;
+    color: #c48a3d;
+    margin-right: 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    height: 2vw;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    cursor: pointer;
+  }
+  .navbutton:hover {
+    font-family: "Gatwick-Regular";
+    letter-spacing: 0.4vw;
+    font-size: 0.7vw;
+    color: #c48a3d;
+    margin-right: 0vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: max-content;
+    height: 2vw;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  .jeremyforkingbox {
+    width: 98vw;
+    height: 39.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .jeremyforking {
+    width: 55vw;
+    height: 3vw;
+    padding-bottom: 8vw;
+    background: url("../images/jeremyforking.svg") no-repeat;
+    display: inline-block;
+  }
+  .sunshinebox {
+    width: 98.1vw;
+    height: 49.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .sunshine {
+    width: 98.1vw;
+    height: 49.5vw;
+    background: url("../images/sunshine.png") no-repeat;
+    background-size: contain;
+    display: inline-block;
+  }
+  #maincontent {
+    width: 98vw;
+    height: 89.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0vw;
+  }  
+
+  .availablenowbox {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .availablenow {
+    width: 100vw;
+    height: 50vw;
+    image-rendering: auto;
+    background: url("../images/availablenow.jpg") no-repeat;
+    background-size: cover;
+    display: inline-block;
+  }
+  #jeremyforkingtag {
+    color: #72819b;
+    margin-top: 5vw;
+    margin-bottom: 0.8vw;
+    margin-left: 5.2vw;
+  }
+  #albumavailablenow {
+    color: #72819b;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    margin-left: 5vw;
+    text-align: left;
+  }
+  .buttoncontainer {
+    width: 13vw;
+    height: 2.8vw;
+    border-width: 0.1vw;
+    margin-top: 2.3vw;
+    margin-bottom: 0vw;
+    margin-left: 5vw;
+    display: inline-block;
+  }
+    .bluebuttonoutline {
+    width: 13vw;
+    height: 2.8vw;
+    border-color: #72819b;
+    border-style: solid;
+    border-width: 0.11vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "Gatwick-Regular";
+    letter-spacing: 0.4vw;
+    font-size: 0.7vw;
+    color: #72819b;
+    padding-left: 0.45vw;
+  }
+  .bluebuttonoutline:hover {
+    background-color: #c48a3d;
+    width: 13vw;
+    height: 2.8vw;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family: "Gatwick-Regular";
+    letter-spacing: 0.4vw;
+    font-size: 0.7vw;
+    color: black;
+    padding-left: 0.45vw;
+    transition-duration: 0.4s;
+  }
+  /* ================================================================================ */
+  /* ================================ DESKTOP "MUSIC" =============================== */
+  /* ================================================================================ */
+  #bodymusic {
+    background-color: black;
+  }
+  #headermusic {
+    background-color: black;
+    width: 100vw;
+    height: 125vw;
+  }
+  #musicbackground {
+    background-image: url("../images/musicpage-03-03-03-03.jpg");
+    background-size: cover;
+    background-color: black;
+    background-size: 100vw;
+    height: 124vw;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.11vw;
+    margin: 0.89vw;
+  }
+  #maincontentmusic {
+    width: 98vw;
+    height: 125;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0vw;
+  }
+  .shieldboxmusic {
+    width: 4vw;
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    margin-top: 2.5vw;
+  }
+  .shieldboxmusic:hover {
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  .jeremyforkingboxmusic {
+    width: 98vw;
+    height: 45vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 0vw;
+  }
+  .jeremyforkingmusic {
+    width: 55vw;
+    height: 3vw;
+    padding-bottom: 8vw;
+    background: url("../images/jeremyforking.svg") no-repeat;
+    display: inline-block;
+  }
+  #music {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    width: 80vw;
+    height: 35vw;
+  }
+  
+  #discblank {
+    width: 35vw;
+    height: 35vw;
+    display: inline-block;
+    margin-bottom: 0vw;
+  }
+  #discbuttons {
+    width: 30vw;
+    height: 5vw;
+    margin-top: 29.6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .buttoncontainer2 {
+    width: 13vw;
+    height: 2.8vw;
+    border-width: 0.1vw;
+    margin-top: 2.3vw;
+    margin-bottom: 0vw;
+    margin-left: 5vw;
+    display: inline-block;
+  }
+  #songlist {
+    border-color: #72819b;
+    border-style: solid;
+    border-width: 0.11vw;
+    border-bottom: 0vw;
+    border-left: 0vw;
+    border-right: 0vw;
+    width: 30vw;
+    height: 35vw;
+    margin-left: 14.5vw;
+    display: inline-block;
+  }
+  #songlisttitle {
+    width: 35vw;
+    height: 5vw;
+    margin-top: 4vw;
+    display: inline-block;  
+  }
+  #songnames {
+    width: 35vw;
+    height: 26vw;
+    display: inline-block;  
+  }
+  #credits {
+    border-color: #72819b;
+    border-style: solid;
+    border-width: 0.11vw;
+    border-bottom: 0vw;
+    border-left: 0vw;
+    border-right: 0vw;
+    width: 80vw;
+    height: 16vw;
+    margin-top: 9vw;
+    margin-bottom: 9vw;
+    display: inline-block;
+  }
+  #creditstype {
+
+    width: 80vw;
+    height: 12vw;
+    margin-top: 4vw;
+    display: inline-block;
+  }
+  /* ================================================================================ */
+  /* ================================ DESKTOP "THANK YOU" =============================== */
+  /* ================================================================================ */
+  #bodymusic {
+    background-color: black;
+  }
+  #headerthankyou {
+    background-color: black;
+    width: 100vw;
+    height: 98vh;
+  }
+  #thankyoubackground {
+    background-color: black;
+    background-size: 100vw;
+    height: 98vh;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.11vw;
+    margin-left: 0.89vw;
+    margin-right: 0.89vw;
+    margin-bottom: 0.89vw;
+    margin-top: 0.89vw;
+  }
+  #maincontentthankyou {
+    width: 98vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #thankyouline {
+    border-color: #72819b;
+    border-style: solid;
+    border-width: 0.11vw;
+    width: 38vw;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 0vw;
+  }
+  #thankyouwindow {
+    background-color: #30323D;
+    width: 40vw;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 18vh;
+  }
+  #xbox {
+
+    width: 34vw;
+    height: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    margin-top: 2vw;
+  }
+  #x {
+    background: url("../images/x.svg") no-repeat;
+
+    width: 3.3vw;
+    height: 3.3vw;
+    display: inline-block;
+    margin-right: 0.4vw;
+  }
+  #thankyoutext {
+
+    width: 18vw;
+    height: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 7vw;
+    font-family: "Gatwick-Ultralight";
+    font-weight: normal;
+    line-height: 3.8vw;
+    letter-spacing: 0.6vw;
+    font-size: 3vw;
+    color: #72819b;
+  }
+
+  /* ================================================================================ */
+  /* ================================ DESKTOP - FOOTER =============================== */
+
+  #footermargin {
+    background-color: #30323D;
+    width: 100vw;
+    height: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #footersize {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #30323D;
+    width: 98.2vw;
+    height: 28vw;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.11vw;
+    margin: 0.89vw;
+  }
+  #rowelements {
+    height: 6vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  #swordbox {
+    height: 9vw;
+    width: 9vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+
+  }#sword {
+    background: url("../images/sword.svg") no-repeat;
+    height: 1.6vw;
+    width: 4vw;
+    display: inline-block;
+  }
+  #footernav {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    align-content: center;
+    width: 22vw;
+    height: 3vw;
+    margin-right: 1vw;
+  }
+  .footernav {
+    height: 1.4vw;
+    margin-left: 1vw;
+    display: inline-block;
+  }
+  .footernav:hover {
+    height: 1.4vw;
+    display: inline-block;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  
+  #subscribe {
+    width: 45vw;
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 0vw;
+  }
+  #form {
+    height: 2.8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+  }
+  #field {
+    background-color: #30323D;
+    border-width: 0.11vw;
+    border-style: solid;
+    border-color: #72819b;
+    color: #72819b;
+    height: 2.8vw;
+    width: 24vw;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Gatwick-Bold";
+    font-weight: normal;
+    letter-spacing: 0.14vw;
+    line-height: 1vw;
+    font-size: 0.8vw;
+    padding-left: 2vw;
+  }
+  #field:focus, textarea {
+    outline: none !important;
+    background-color: #72819b;
+    color: #30323D;
+  }
+  #field::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #72819b;
+    opacity: 1; /* Firefox */
+  }
+  #field:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #72819b;
+  }
+  #field::-ms-input-placeholder { /* Microsoft Edge */
+    color: #72819b;
+  }
+  .subscribebutton {
+    background-color: #30323D;
+    border-width: 0.11vw;
+    border-style: solid;
+    border-color: #c48a3d;
+    color: #c48a3d;
+    height: 2.8vw;
+    width: 13vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Gatwick-Regular";
+    font-weight: normal;
+    letter-spacing: 0.4vw;
+    line-height: 1vw;
+    font-size: 0.7vw;
+    padding-left: 0.9vw;
+    margin-left: -0.11vw;
+    margin-top: 0vw;
+  }
+  .subscribebutton:hover {
+    background-color: #c48a3d;
+    border-width: 0.11vw;
+    border-style: solid;
+    border-color: #c48a3d;
+    color: black;
+    height: 2.8vw;
+    width: 13vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Gatwick-Regular";
+    font-weight: normal;
+    letter-spacing: 0.4vw;
+    line-height: 1vw;
+    font-size: 0.7vw;
+    padding-left: 0.9vw;
+    margin-left: -0.11vw;
+    margin-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  #email {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    align-content: center;
+    width: 22vw;
+    height: 3vw;
+    margin-left: 1vw;
+
+  }
+  .email {
+    height: 1.4vw;
+    width: 12vw;
+    display: inline-block;
+    border-color: #30323D;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+
+  }
+  .email:hover {
+    height: 1.4vw;
+    width: 12vw;
+    display: inline-block;
+    border-color: #c48a3d;
+    background-color: #30323D;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  #copyright {
+    height: 9vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+  }
+  #yearwinsome {
+    height: 1.4vw;
+    display: inline-block;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  #winsome {
+    font-family: "Gatwick-Regular";
+    font-weight: normal;
+    letter-spacing: 0.25vw;
+    line-height: 1vw;
+    font-size: 0.7vw;
+    color: #c48a3d;
+    height: 1.4vw;
+    display: inline-block;
+    border-color: #30323D;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+  #winsome:hover {
+    font-family: "Gatwick-Regular";
+    font-weight: normal;
+    letter-spacing: 0.25vw;
+    line-height: 1vw;
+    font-size: 0.7vw;
+    height: 1.4vw;
+    display: inline-block;
+    border-color: #c48a3d;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-right: 0vw;
+    border-left: 0vw;
+    border-top: 0vw;
+    transition-duration: 0.4s;
+  }
+
+
+
+  /* ================================ DESKTOP - TYPOGRAPHY =============================== */
+  h1 {
+    font-family: "Gatwick-Ultralight";
+    font-weight: normal;
+    line-height: 3.3vw;
+    letter-spacing: 0.6vw;
+    font-size: 3vw;
+    color: #fcf8f5;
+    margin: 0;
+  }
+
+  h2 {
+    font-family: "Gatwick-Regular";
+    font-weight: normal;
+    letter-spacing: 0.5vw;
+    line-height: 1vw;
+    font-size: 0.7vw;
+    color: black;
+    margin: 0;
+  }
+  h3 {
+    font-family: "Gatwick-Regular";
+    font-weight: normal;
+    letter-spacing: 0.25vw;
+    line-height: 1vw;
+    font-size: 0.7vw;
+    color: #c48a3d;
+    margin: 0;
+  }
+  h4 {
+    font-family: "Gatwick-Regular";
+    font-weight: normal;
+    letter-spacing: 0.25vw;
+    line-height: 2.4vw;
+    font-size: 0.98vw;
+    color: #72819b;
+    margin: 0;
+  }
+

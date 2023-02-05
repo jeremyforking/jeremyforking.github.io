@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Winsome Workmanship" content="We're building a future.">
+    <meta name="theme-color" content="#fcf8f5" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#fcf8f5" media="(prefers-color-scheme: dark)">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/Normalize.css">
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="stylesheet" href="../CSS/hamburgers.css">
+
+</head>
+
+<body id="bodymusic">
+   
+    <div class="mobilenav">
+        
+            <input id="collapsible" class="toggle" type="checkbox">
+            <label for="collapsible" class="hamburger">
+                
+                <div class="hamburger--squeeze">
+                    <div class="hamburger-box">
+                      <div class="hamburger-inner"></div>
+                    </div>
+                </div>
+            
+            </label>
+            <div class="menu">
+                <a href="../index.html"><span id="mobileshield"></span></a>
+                <a href="pages/music.html"><span id="mobilemusic">MUSIC<img class=navarrow src="../images/arrow-07.svg"></span></a>
+                <a href="https://lnk.to/JEREMYFORKING"><span id="mobilelisten">LISTEN<img class=navarrow src="../images/arrow-07.svg"></span></a>
+                <a href="https://www.youtube.com/@jeremy-for-king"><span id="mobileyoutube">youtube</span></a>
+                <a href="https://facebook.com/jeremyforking"><span id="mobilefacebook">facebook</span></a>
+                <span id="menupaddingbottom"></span>
+            </div>    
+    </div>
+
+    <header id="headerthankyou">
+        
+        <div id="thankyoubackground">
+            <nav>
+                <span class="leftnav"><span class="navbutton"><a href="pages/music.html">MUSIC</a></span><span class="spacer">&nbsp</span><span class="navbutton"><a href="https://lnk.to/JEREMYFORKING">LISTEN NOW</a></span>
+
+                </span><span class="shieldboxmusic"><a
+                    href="../index.html"><div class="shield"></div></a></span>
+                    <span class="rightnav"><span class="navbutton"><a href="https://www.youtube.com/@jeremy-for-king" target="_blank">youtube</a></span><span class="spacer">&nbsp</span><span
+                    class="navbutton"><a href="https://facebook.com/jeremyforking" target="_blank">facebook</a></span>
+                    <!-- Add spacer here-->
+                    <!-- Add "Instagram" Button here-->
+            </nav>
+            <div id="foxnav"><a href="../index.html"><span id="foxlogo"></span></a></div>
+            
+            
+            <div id="maincontentthankyou">
+                <div id="thankyouwindow">
+                    <div id="thankyouline">
+                        <span id="xbox"><a href="../index.html"><span id="x"></span></a></span>
+                        <span id="thankyoutext">
+                            thanks<br>
+                            for<br>
+                            signing<br>
+                            up!<br>
+                        </span>
+                    </div>
+                </div>
+            </div>
+                 
+
+    <script>
+        window.onload=inithamburger;
+        function inithamburger(){
+        // Look for .hamburger
+        var click = document.querySelector(".hamburger--squeeze");
+        // On click
+        click.addEventListener("click", function() {
+        // Toggle class "is-active"
+        click.classList.toggle("is-active");
+        // Do something else, like open/close menu
+        });  
+        }
+       
+    </script>
+
+</body>
+
+</html>
